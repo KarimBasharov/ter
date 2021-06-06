@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ter.Views.Item4" Title="Крылья">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightCyan">
+            <Image Source="angel.png" HorizontalOptions="Center"></Image>
+            <Image Source="Butterfly.png" HorizontalOptions="Center"></Image>
+            <Image Source="Bat.png" HorizontalOptions="Center"></Image>
+            <Image Source="Solar5.png" HorizontalOptions="Center"></Image>
+            <Label FontSize="Large" Text="Aксессуары, позволяющие летать, а также замедлять падение удерживая кнопку прыжка. Они также дают иммунитет к урону от падения. Сейчас в игре есть 21 вид доступных крыльев, 1 из которых только на версии для консолей. Время полета и скорость зависит от типа крыльев."
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

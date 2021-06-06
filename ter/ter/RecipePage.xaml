@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ter.RecipePage" Title="Рецепт">
+    <StackLayout BackgroundColor="LightCyan">
+        <Label Text="Название" />
+        <Entry Text="{Binding Name}" />
+        <Label Text="Компонент 1" />
+        <Entry Text="{Binding Comp1}" />
+        <Label Text="Компонент 2" />
+        <Entry Text="{Binding Comp2}" />
+        <StackLayout Orientation="Horizontal">
+            <Button WidthRequest="120" BackgroundColor="LightCyan" Text="Сохранить" Clicked="Button_Clicked" />
+            <Button WidthRequest="120" BackgroundColor="LightCyan" Text="Удалить" Clicked="Button_Clicked_1" />
+            <Button Text="Отмена" BackgroundColor="LightCyan" Clicked="Button_Clicked_2" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

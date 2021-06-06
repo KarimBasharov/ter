@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ter.Views.Item1" Title="Основное">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightCyan">
+            <Image Source="bigclay.png" VerticalOptions="Center"></Image>
+            <Image Source="clay.png" VerticalOptions="Center"></Image>
+            <Label Text="Глина" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Image Source="bigdirt.png" VerticalOptions="Center"></Image>
+            <Image Source="dirt.png" VerticalOptions="Center"></Image>
+            <Label Text="Земля" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Image Source="bigstone.png" VerticalOptions="Center"></Image>
+            <Image Source="stone.png" VerticalOptions="Center"></Image>
+            <Label Text="Камень" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Image Source="bigdr.png" VerticalOptions="Center"></Image>
+            <Image Source="dr.png" VerticalOptions="Center"></Image>
+            <Label Text="Дерево" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Image Source="Gel.png" VerticalOptions="Center"></Image>
+            <Label Text="Гель" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            <Label FontSize="Large" Text="Это основные компоненты, которые можно найти в обычном мире. Добываются в больших количествах, т.к. используются во многих рецептах."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

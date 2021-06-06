@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ter.Views.Item2" Title="Броня">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightCyan">
+            <Label Text="Броня на игроке" HorizontalOptions="Center"></Label>
+            <Image Source="arfull.png" HorizontalOptions="Center"></Image>
+            <Label Text="Шлем" HorizontalOptions="Center"></Label>
+            <Image Source="ar1.png" HorizontalOptions="Center"></Image>
+            <Label Text="Нагрудник" HorizontalOptions="Center"></Label>
+            <Image Source="ar2.png" HorizontalOptions="Center"></Image>
+            <Label Text="Ботинки" HorizontalOptions="Center"></Label>
+            <Image Source="ar3.png" HorizontalOptions="Center"></Image>
+            <Label Text="Руда" HorizontalOptions="Center"></Label>
+            <Image Source="ore.png" HorizontalOptions="Center"></Image>
+            <Label Text="Слиток" HorizontalOptions="Center"></Label>
+            <Image Source="bar.png" HorizontalOptions="Center"></Image>
+            <Label FontSize="Large" Text="Брони в игре очень много. Она делается из слитков руды. Руда добывается глубоко в шахтах, а потом переплавляется в печи. Каждая броня имеет бонус всего комплекта."
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

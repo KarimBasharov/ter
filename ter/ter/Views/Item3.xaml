@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ter.Views.Item3" Title="Оружие">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightCyan">
+            <Image Source="meow.png" HorizontalOptions="Center"></Image>
+            <Image Source="ioio.png" HorizontalOptions="Center"></Image>
+            <Image Source="glaive.png" HorizontalOptions="Center"></Image>
+            <Image Source="rang.png" HorizontalOptions="Center"></Image>
+            <Image Source="sunf.png" HorizontalOptions="Center"></Image>
+            <Image Source="bow.png" HorizontalOptions="Center"></Image>
+            <Image Source="arbo.png" HorizontalOptions="Center"></Image>
+            <Image Source="Sdmg.png" HorizontalOptions="Center"></Image>
+            <Image Source="zapper.png" HorizontalOptions="Center"></Image>
+            <Image Source="Bomb.png" HorizontalOptions="Center"></Image>
+            <Image Source="harvest.png" HorizontalOptions="Center"></Image>
+            <Label FontSize="Small" Text="Оружие - это основной предмет, предназначенные для борьбы с противниками, боссами, живностью, а также с другими игроками во время PvP-режима. Некоторые виды оружия могут быть изготовлены на верстаке или наковальнях, в то время, как другие могут быть найдены в сундуках, выпасть с противников или продаваться у жителей."
+                HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
